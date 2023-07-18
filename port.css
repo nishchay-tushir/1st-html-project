@@ -1,0 +1,225 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: x-large;
+    
+
+}
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(253, 251, 251);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+li a:hover {
+    background-color: #111111;
+}
+
+.primary{
+    height: 48rem;
+    color: aliceblue;
+    text-align: center;    
+    
+    font-style: italic;
+}
+
+.primary h1{
+    padding-top: 12.1rem;
+}
+
+.primary{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.primary img{
+    opacity: 0.7;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.secondary{
+    height: 40rem;
+    background-color: antiquewhite;
+}
+
+.secondary img{
+    margin-top: 8rem;
+    margin-left: 41.3rem;
+    border-radius: 100rem;
+    height: 200px;
+    
+    
+}
+.secondary h1{
+    margin-top: 2rem;
+    text-align: center;
+    color: #66bfbf;
+}
+
+.secondary h2{
+    margin-top: 2rem;
+    text-align: center;
+    font-size:large;
+}
+
+.third{
+    height: 43rem;
+    background-color: rgb(170, 221, 221);
+}
+
+.third h1{
+    padding-top: 2rem;
+    margin-left: 42rem;
+    color: #ffffff;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+
+}
+.typing{
+    display: block;
+}
+.design{
+    display: block;
+}
+.chilly{
+    display: block;
+}
+.wings{
+    display:block;
+}
+
+.fourth{
+    height: 30rem;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.fourth h1{
+    padding-top: 4rem;
+    color: #66bfbf;
+    text-align: center;
+}
+
+.fourth h2{
+    padding-top: 3rem;
+    color: #e73c7e;
+    text-align: center;
+}
+.fourth p{
+    padding-top: 1rem;
+    font-size: x-large;
+}
+
+.button {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration:none;
+  }
+
+  .button1 {
+    background-color:rgb(238, 239, 243); 
+    color: black; 
+    border: 2px solid #0c0c0c;
+    border-radius: 20rem;
+  }
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+   
+    .primary img{
+        height: 200px;    
+    }
+    .primary{
+        height: 35rem;
+    }
+    ul{
+        font-size:small;
+    }
+    .secondary{
+        height: 33rem;
+    }
+    .secondary img{
+        margin-top: 8rem;
+        margin-left: 7rem;
+        border-radius: 100rem;
+        height: 150px;
+    }
+
+    .third{
+        height: 35rem;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        width: 80%;
+        margin: 10px auto 0 auto;
+        text-align: left;
+        row-gap: 2rem;
+        font-size: small;
+    }
+    .third h1{
+        padding-top: 2rem;
+        margin-left: 8rem;
+        margin-bottom: 2rem;
+        color: #ffffff;
+    }
+    .skills img{
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .fourth h2{
+        padding-top: 2rem;
+        font-size:medium;
+    }
+    .fourth p{
+        font-size: medium;
+        padding: 2rem;
+    }
+  }
